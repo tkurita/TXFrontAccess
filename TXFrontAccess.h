@@ -17,10 +17,12 @@
 - (NSURL *)documentURL; /* required GUI Scripting */
 - (AXUIElementRef)mainWindow; /* required GUI Scripting */
 
+- (BOOL)isCurrentApplication;
 - (NSString *)bundleIdentifier;
 - (void)setupErrorMessage:(NSString *)message number:(AXError)errnumber;
 
 @property NSRunningApplication *targetApplication;
 @property (assign) AXUIElementRef axApplication;
 @property NSError *error;
+
 @end

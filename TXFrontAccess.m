@@ -131,6 +131,12 @@ void AXErrorLog(NSString *msg, AXError err)
     return value;
 }
 
+- (BOOL)isCurrentApplication
+{
+    return [_targetApplication isEqual:
+                [NSRunningApplication currentApplication]];
+}
+
 - (NSString *)bundleIdentifier
 {
     return  _targetApplication.bundleIdentifier;
