@@ -1,0 +1,10 @@
+/* 
+  TXFrontAccessLocalizedStrings.strings
+  FrontAccessDev
+
+  Created by 栗田 哲郎 on 2015/09/25.
+  Copyright (c) 2015年 tkurita. All rights reserved.
+*/
+
+"Can't get a file reference for the front window of the process : %@" = "プロセス %@ の前面のウインドウのファイル参照が得られません。";
+"Cant' find a main window of the process : %@" = "プロセス %@ のMain Window が見つかりません。";
