@@ -100,7 +100,7 @@ void AXErrorLog(NSString *msg, AXError err)
     
     CFTypeRef value = NULL;
     AXError err = AXUIElementCopyAttributeValue(target_window,
-                                  (CFStringRef)kAXDocumentAttribute,
+                                (CFStringRef)NSAccessibilityDocumentAttribute,
                                                 &value);
     if (kAXErrorSuccess != err ) {
         #if DEBUG
