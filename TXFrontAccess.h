@@ -19,6 +19,7 @@
 
 - (BOOL)isCurrentApplication;
 - (NSString *)bundleIdentifier;
+- (NSString *)localizedName;
 - (void)setupErrorMessage:(NSString *)message number:(AXError)errnumber;
 
 @property NSRunningApplication *targetApplication;

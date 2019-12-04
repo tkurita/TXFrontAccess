@@ -142,4 +142,9 @@ void AXErrorLog(NSString *msg, AXError err)
     return  _targetApplication.bundleIdentifier;
 }
 
+- (NSString *)localizedName
+{
+    return _targetApplication.localizedName;
+}
+
 @end
